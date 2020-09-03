@@ -1,0 +1,40 @@
+<html>
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="sky" src="img/milky.jpg">
+            <img id="walltexture" src="img/download.jpg">
+            <img id="rooftexture" src="img/rooftexture.jpg">
+            <img id="floortexture" src="img/floort.jpg">
+            <img id="spiderman" src="img/spidy.jpg">
+            <img id="ironman" src="img/ironman.jpg">
+            <img id="captain" src="img/captainamerica.jpg">
+            <img id="blackwidow" src="img/blackwidow.jpg">
+            <img id="avengers" src="img/avengerslogo.png">
+            <img id="a-logo" src="img/ashishArtboard 1 copy.png">
+            <img id="window" src="img/windows.png">  
+            <audio id="music" src="audio/soothingmusic.mp3"></audio>
+            <video id="video" src="video/RAAG.mp4"></video>
+        </a-assets>
+    <a-sky src="#sky" radilus="30"></a-sky>
+    <a-plane src="#walltexture" repeat="1 1" position="0 2 -2" rotation="0 0 0" width="4" height="4" color="#563232"></a-plane>
+    <a-plane src="#walltexture" position="2 2 0" rotation="0 90 0" width="4" height="4" color="#563232" side="double"></a-plane>
+    <a-plane src="#walltexture" position="0 2 2" rotation="0 0 0" width="4" height="4" color="#563232" side="double"></a-plane>
+    <a-plane src="#walltexture" position="-2 2 0" rotation="0 90 0" width="4" height="4" color="#563232" side="double"></a-plane>
+    <a-image src="#rooftexture" color="#563232" position="0 4 0" rotation="270 0 0" width="4" height="4" side="double"></a-image>  
+    <a-image color="#563232" position="0 0  0" rotation="90 180 0"src="#floortexture" width="4" height="4" side="double"></a-image>
+    <a-image src="#spiderman" rotation="0 270 15" position="1.99 1 1" sided="double"></a-image>
+    <a-image src="#ironman" rotation="0 90 -15" position="1.99 3 -1" sided="double"></a-image>
+    <a-image src="#captain" rotation="0 90 8" position="1.99 1 -1" sided="double"></a-image>
+    <a-image src="#blackwidow" rotation="0 270 -8" position="1.99 3 1" sided="double"></a-image>
+    <a-image src="#avengers" rotation="0 270 15" position="1.99 2 0" sided="double"></a-image>
+    <a-image src="#a-logo" position="0 2 -1.99" scale="3 3"></a-image>
+    <a-image src="#window" position="-1.99 1.9 0" rotation="0 90 0" scale="2 2"></a-image>
+    <a-video src="#video" position="0 2 1.99" rotation="0 180 0" scale="3.2 1.8"></a-video>
+    <a-sound src="#music" loop="true" autoplay="true"></a-sound>
+    </a-scene>
+    </body>
+</html>
