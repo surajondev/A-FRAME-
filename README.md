@@ -7,7 +7,7 @@ So today we are going to learn things based on one of this technology that is Vi
 We are going to do using A-frame framework for building Virtual Reality Experience.
 
 #### What you need:
-- A IDE of your choice - we personally prefer (VS Code)[https://code.visualstudio.com/]
+- A IDE of your choice - we personally prefer VS Code
 - Some Basic knowledge of HTML & CSS
 - Git installation on your machin if you plan to put it on Github!
 
